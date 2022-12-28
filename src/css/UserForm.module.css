@@ -1,0 +1,55 @@
+.form {
+  background-color: white;
+  padding: 20px;
+  width: 50%;
+  border-radius: 6px;
+}
+
+.error {
+  background-color: #e3e1db;
+  border-radius: 4px;
+  position: absolute;
+  top: 30%;
+  left: 25%;
+  width: 50%;
+  height: 30%;
+}
+
+.error p {
+  padding-top: 70px;
+  padding-left: 20px;
+}
+.invalid {
+  position: absolute;
+  margin-top: -15px;
+  height: 25%;
+  width: 100%;
+  background-color: rebeccapurple;
+}
+
+label {
+  display: block;
+  padding: 10px 0;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  border: 1px solid grey;
+  padding: 4px;
+}
+
+.age {
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: rebeccapurple;
+  padding: 8px;
+  border: none;
+  color: white;
+}
+.button {
+  position: relative;
+  left: 80%;
+}
