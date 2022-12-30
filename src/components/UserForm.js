@@ -35,13 +35,16 @@ const AddUser = (props) => {
   return (
     <div className={styles.form}>
       {error && (
-        <div className={styles.error}>
-          <div>
-            <div className={styles.invalid}></div>
-            <p>{error}</p>{" "}
-            <button onClick={changeError} className={styles.button}>
-              OK
-            </button>
+        <div>
+          <div onClick={changeError} className={styles.backdrop} />
+          <div className={styles.error}>
+            <div>
+              <div className={styles.invalid}>Input Error</div>
+              <p>{error}</p>{" "}
+              <button onClick={changeError} className={styles.button}>
+                OK
+              </button>
+            </div>
           </div>
         </div>
       )}
